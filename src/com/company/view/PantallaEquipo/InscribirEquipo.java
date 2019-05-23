@@ -17,15 +17,15 @@ public class InscribirEquipo {
         Equipo equipo = new Equipo();
         ManagerEquipo managerEquipo = new ManagerEquipo();
 
-        System.out.println("1.1.Inscribir un equipo");
+        System.out.println("1.1.Inscribir un equipo:");
 
-        System.out.println("Nombre del equipo:");
+        System.out.println("Escribe el nombre del equipo:");
         equipo.nombre = scanner.nextLine();
 
-        System.out.println("Nombre en siglas del equipo:");
+        System.out.println("Escribe las siglas del equipo:");
         equipo.siglasdelequipo = scanner.nextLine();
 
-        System.out.println("Nombre de la ciudad o pais donde es el equipo:");
+        System.out.println("Escribre el nombre de la ciudad o pais donde es el equipo:");
         equipo.ciudad = scanner.nextLine();
 
         managerEquipo.crearEquipo(equipo);
